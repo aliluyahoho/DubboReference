@@ -1,5 +1,17 @@
-## Jmeter-Plugin 之 dubbo 引用### Author: Alia Zhong(aliluyahoho@163.com)### Version: 1.0.0___##  Usage of this plugin tool**Step 1** generate executable file enter maven commond as follows:
-	mvn cleancompile package	mvn assembly:assembly
+## Jmeter-Plugin 之 dubbo 引用
+
+### Author: Alia Zhong(aliluyahoho@163.com)
+### Version: 1.0.0
+
+___
+##  Usage of this plugin tool
+
+**Step 1** generate executable file 
+
+enter maven commond as follows:
+
+	mvn cleancompile package
+	mvn assembly:assembly
 	
 **Step 2** add jar file to Jmeter
 
@@ -48,6 +60,7 @@ Note:restart Jmeter after operation
 	s.reference("queryClrBatInfoForOth", null, null);
 
 **Step 5** 支持不同参数类型
+
 基本类型以及Date,List,Map等不需要转换，直接调用
 
 	s.reference("methodName", new String[]{"java.lang.String"}, new Object[]{"B201703250001"});
