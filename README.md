@@ -10,7 +10,7 @@ ___
 
 enter maven commond as follows:
 
-	mvn cleancompile package
+	mvn clean compile package
 	mvn assembly:assembly
 	
 **Step 2** add jar file to Jmeter
@@ -22,8 +22,9 @@ Note:restart Jmeter after operation
 **Step 3** Generate Jmeter test Plan
 
 	1. Add Thread Group
-	2. Add Response Assertion
-	3. Add View result tree 
+	2. Create BeanShell Script
+	3. Add Response Assertion
+	4. Add View result tree 
 
 
 **Step 4** Write BeanShell to reference dubbo service
