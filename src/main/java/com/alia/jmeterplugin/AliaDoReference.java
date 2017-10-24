@@ -9,7 +9,6 @@ import com.alibaba.dubbo.rpc.service.GenericService;
 
 
 /**
- * Created by zhongyingying on 2017/3/27.
  * Dubbo 泛化引用
  */
 public class AliaDoReference {

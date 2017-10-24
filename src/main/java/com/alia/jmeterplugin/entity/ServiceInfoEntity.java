@@ -1,8 +1,5 @@
 package com.alia.jmeterplugin.entity;
 
-/**
- * Created by maliang on 2016/12/29.
- */
 public class ServiceInfoEntity {
 
     private String interfaceName;
